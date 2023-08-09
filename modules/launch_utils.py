@@ -240,7 +240,7 @@ def prepare_environment():
     blip_repo = os.environ.get('BLIP_REPO', 'https://github.com/salesforce/BLIP.git')
 
     stable_diffusion_commit_hash = os.environ.get('STABLE_DIFFUSION_COMMIT_HASH', "8fe87bab077c9fdef3cb90bb11c68f0d18a9fe57")
-    k_diffusion_commit_hash = os.environ.get('K_DIFFUSION_COMMIT_HASH', "c9fe758757e022f05ca5a53fa8fac28889e4f1cf")
+    k_diffusion_commit_hash = os.environ.get('K_DIFFUSION_COMMIT_HASH', "8787d0e32f1bbd8c33a53374cbd57a569cca7ceb")
     codeformer_commit_hash = os.environ.get('CODEFORMER_COMMIT_HASH', "c5b4593074ba6214284d6acd5f1719b6c5d739af")
     blip_commit_hash = os.environ.get('BLIP_COMMIT_HASH', "48211a1594f1321b00f14c9f7a5b4813144b2fb9")
 
