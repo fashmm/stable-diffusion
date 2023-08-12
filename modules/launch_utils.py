@@ -239,7 +239,7 @@ def prepare_environment():
     codeformer_repo = os.environ.get('CODEFORMER_REPO', 'https://github.com/sczhou/CodeFormer.git')
     blip_repo = os.environ.get('BLIP_REPO', 'https://github.com/salesforce/BLIP.git')
 
-    stable_diffusion_commit_hash = os.environ.get('STABLE_DIFFUSION_COMMIT_HASH', "cf1d67a6fd5ea1aa600c4df58e5b47da45f6bdbf")
+    stable_diffusion_commit_hash = os.environ.get('STABLE_DIFFUSION_COMMIT_HASH', "8fe87bab077c9fdef3cb90bb11c68f0d18a9fe57")
     k_diffusion_commit_hash = os.environ.get('K_DIFFUSION_COMMIT_HASH', "8fe87bab077c9fdef3cb90bb11c68f0d18a9fe57")
     codeformer_commit_hash = os.environ.get('CODEFORMER_COMMIT_HASH', "8fe87bab077c9fdef3cb90bb11c68f0d18a9fe57")
     blip_commit_hash = os.environ.get('BLIP_COMMIT_HASH', "8fe87bab077c9fdef3cb90bb11c68f0d18a9fe57")
